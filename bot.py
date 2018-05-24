@@ -1,4 +1,4 @@
-from linepy import*
+from linepy import *
 
 
 client = LINE()
