@@ -22,7 +22,7 @@ def NOTIFIED_INVITE_INTO_GROUP(op):
 
 def NOTIFIED_INVITE_INTO_ROOM(op):
     try:
-        client.leaveRoom(op.op.param1)
+        client.leaveRoom(op.param1)
     except Exception as e:
         print(e)
         print("\n\nNOTIFIED_INVITE_INTO_ROOM\n\n")
